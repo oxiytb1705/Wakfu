@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "havre_sac_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/bouclier_de_wakfu",
+  "textures": {
+    "0": "wakfu:block/bouclier_de_wakfu",
+    "particle": "wakfu:item/bouclierdewakfu"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/disque_wakfu",
+  "textures": {
+    "0": "wakfu:block/texture_disque_wakfu",
+    "particle": "wakfu:item/disque_wakfu"
+  }
+}

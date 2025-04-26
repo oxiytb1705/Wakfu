@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:shushu_ore_block"
+    },
+    "b": {
+      "item": "wakfu:kamas"
+    },
+    "c": {
+      "item": "wakfu:wakfu_minerai_block"
+    }
+  },
+  "result": {
+    "item": "wakfu:spawnroishushu",
+    "count": 1
+  }
+}

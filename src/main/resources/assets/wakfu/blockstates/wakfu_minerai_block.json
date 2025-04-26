@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wakfu:block/wakfu_minerai_block"
+    }
+  }
+}

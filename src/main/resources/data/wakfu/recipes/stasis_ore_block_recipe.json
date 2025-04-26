@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:stasis"
+    }
+  },
+  "result": {
+    "item": "wakfu:stasis_block",
+    "count": 1
+  }
+}

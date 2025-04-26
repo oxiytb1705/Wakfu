@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wakfu:block/shushu_portal_block"
+    }
+  }
+}

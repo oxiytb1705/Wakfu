@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bouclier_de_wakfu",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:wakfu_minerai_block"
+    },
+    "b": {
+      "item": "wakfu:wakfu_minerai_ingot"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "wakfu:bouclierde_wakfu",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/ruel_pelle",
+  "textures": {
+    "0": "wakfu:block/texture_pelle_ruel",
+    "particle": "wakfu:item/ruel_pelle"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/epee_de_wakfu",
+  "textures": {
+    "0": "wakfu:block/epee_de_wakfu",
+    "particle": "wakfu:item/epeedewakfu"
+  }
+}

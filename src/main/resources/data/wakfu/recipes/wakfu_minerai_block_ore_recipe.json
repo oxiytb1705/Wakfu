@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wakfu_ingot",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wakfu:wakfu_minerai_block"
+    }
+  ],
+  "result": {
+    "item": "wakfu:wakfu_minerai_ingot",
+    "count": 9
+  }
+}

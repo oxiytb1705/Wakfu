@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "wakfu:biomewakfu",
+    "plains",
+    "snowy_plains",
+    "lush_caves"
+  ],
+  "features": "wakfu:stasis_ore",
+  "step": "underground_ores"
+}

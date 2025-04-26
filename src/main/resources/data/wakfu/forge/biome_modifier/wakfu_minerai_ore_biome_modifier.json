@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "wakfu:biomewakfu",
+  "features": "wakfu:wakfu_minerai_ore",
+  "step": "underground_ores"
+}

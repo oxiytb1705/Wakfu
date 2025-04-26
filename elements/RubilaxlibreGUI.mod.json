@@ -1,0 +1,76 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "rubila_libre.png",
+          "use1Xscale": true,
+          "x": 223,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_released_rubilax",
+          "text": {
+            "fixedValue": "released Rubilax"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 163,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_released",
+          "text": "released",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ProcedurelibereRubilax"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 146,
+          "y": 114
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RubilaxArm"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 97,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

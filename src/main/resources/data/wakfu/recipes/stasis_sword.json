@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:stasis_block"
+    },
+    "b": {
+      "item": "wakfu:stasis"
+    }
+  },
+  "result": {
+    "item": "wakfu:epeede_stasis",
+    "count": 1
+  }
+}

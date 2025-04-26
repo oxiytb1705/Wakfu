@@ -1,0 +1,9 @@
+{
+  "parent": "wakfu:custom/havre_ile",
+  "textures": {
+    "all": "wakfu:block/texture_havre_ile",
+    "particle": "wakfu:block/texture_havre_ile",
+    "0": "wakfu:block/texture_havre_ile"
+  },
+  "render_type": "solid"
+}

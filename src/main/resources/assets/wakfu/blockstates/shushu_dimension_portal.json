@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "wakfu:block/shushu_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "wakfu:block/shushu_dimension_portal_ns"
+    }
+  }
+}

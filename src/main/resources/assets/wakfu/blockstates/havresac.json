@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wakfu:block/havresac"
+    },
+    "facing=east": {
+      "model": "wakfu:block/havresac",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wakfu:block/havresac",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wakfu:block/havresac",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "wakfu:block/havresac",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "wakfu:block/havresac",
+      "x": 90
+    }
+  }
+}

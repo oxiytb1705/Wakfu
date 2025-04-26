@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wakfu:block/stasis_ore"
+    }
+  }
+}

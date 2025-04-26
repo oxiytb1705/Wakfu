@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water",
+    "minecraft:nether_wart_block",
+    "minecraft:netherrack",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:mycelium",
+    "minecraft:coarse_dirt",
+    "minecraft:cut_red_sandstone"
+  ]
+}

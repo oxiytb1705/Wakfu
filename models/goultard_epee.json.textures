@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "goultard_epee_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 129,
+    "height": 111,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dragon",
+          "text": {
+            "fixedValue": "Dragon"
+          },
+          "color": {
+            "value": -13369396,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bonus",
+          "text": {
+            "fixedValue": "Bonus"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jump_boost_3",
+          "text": {
+            "fixedValue": "jump boost 3"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_choose",
+          "text": "Choose",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Choisirdragon"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Arriere1"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 114,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": ">",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Suivent2"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 285,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

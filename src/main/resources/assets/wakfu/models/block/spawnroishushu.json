@@ -1,0 +1,9 @@
+{
+  "parent": "wakfu:custom/spawn_roi_shushu",
+  "textures": {
+    "all": "wakfu:block/spawn_roi_shushu",
+    "particle": "wakfu:block/spawn_roi_shushu",
+    "0": "wakfu:block/spawn_roi_shushu"
+  },
+  "render_type": "solid"
+}

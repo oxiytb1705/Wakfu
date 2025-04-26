@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "wakfu:shu_shu_biom",
+  "spawners": {
+    "type": "wakfu:shushu_1",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

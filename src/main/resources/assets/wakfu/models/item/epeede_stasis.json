@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/epee_de_stasis",
+  "textures": {
+    "0": "wakfu:block/epee_de_stasis",
+    "particle": "wakfu:item/epee_de_stasis"
+  }
+}

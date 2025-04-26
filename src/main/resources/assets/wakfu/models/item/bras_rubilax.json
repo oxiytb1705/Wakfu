@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/bras_rubilax",
+  "textures": {
+    "0": "wakfu:block/texture_bras_rubilax",
+    "particle": "wakfu:item/bras_rubilax"
+  }
+}

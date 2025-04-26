@@ -1,0 +1,9 @@
+{
+  "parent": "wakfu:custom/casque_nox_item",
+  "textures": {
+    "all": "wakfu:block/casque_nox_item",
+    "particle": "wakfu:block/casque_nox_item",
+    "0": "wakfu:block/casque_nox_item"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wakfu:block/casque_nox"
+    },
+    "facing=east": {
+      "model": "wakfu:block/casque_nox",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wakfu:block/casque_nox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wakfu:block/casque_nox",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "wakfu:block/casque_nox",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "wakfu:block/casque_nox",
+      "x": 90
+    }
+  }
+}

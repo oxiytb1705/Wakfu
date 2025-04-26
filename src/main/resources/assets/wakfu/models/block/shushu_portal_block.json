@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wakfu:block/texture_portal_shushu",
+    "particle": "wakfu:block/texture_portal_shushu"
+  },
+  "render_type": "cutout"
+}

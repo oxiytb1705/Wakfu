@@ -1,0 +1,35 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "ruel_pelle",
+    "customModelName": "ruel_pelle:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Pelle de ruel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wakfu"
+      }
+    ],
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 11.0,
+    "usageCount": 950,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wakfu:stasis_block"
+    }
+  ],
+  "result": {
+    "item": "wakfu:stasis",
+    "count": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "epee_de_wakfu",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:wakfu_minerai_block"
+    }
+  },
+  "result": {
+    "item": "wakfu:epeedewakfu",
+    "count": 1
+  }
+}

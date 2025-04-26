@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spawn_roi_shushu"
+      },
+      "name": "default"
+    }
+  }
+}

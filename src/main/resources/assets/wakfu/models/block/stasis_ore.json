@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wakfu:block/stasis_ore",
+    "particle": "wakfu:block/stasis_ore"
+  },
+  "render_type": "solid"
+}

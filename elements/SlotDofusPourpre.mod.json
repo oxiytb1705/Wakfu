@@ -1,0 +1,9 @@
+{
+  "_fv": 69,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "pourpre_dofus.png",
+    "name": "Dofus Pourpre",
+    "amount": 1
+  }
+}

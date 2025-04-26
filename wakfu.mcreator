@@ -1,0 +1,3201 @@
+{
+  "mod_elements": [
+    {
+      "name": "Wakfu",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Eliacube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eliacube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/loot_tables/blocks/eliacube.json",
+          "src/main/resources/assets/wakfu/models/block/eliacube.json",
+          "src/main/resources/assets/wakfu/models/item/eliacube.json",
+          "src/main/resources/assets/wakfu/blockstates/eliacube.json",
+          "src/main/java/net/mcreator/wakfu/block/EliacubeBlock.java"
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "Eliacubeparticule",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eliacubeparticule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/particles/eliacubeparticule.json",
+          "src/main/java/net/mcreator/wakfu/client/particle/EliacubeparticuleParticle.java"
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "Havresac",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havresac",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/block/HavresacBlock.java",
+          "src/main/java/net/mcreator/wakfu/block/entity/HavresacBlockEntity.java",
+          "src/main/resources/assets/wakfu/models/block/havresac.json",
+          "src/main/resources/assets/wakfu/models/item/havresac.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/havresac.json",
+          "src/main/resources/assets/wakfu/blockstates/havresac.json"
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "HavresacGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havresac_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/world/inventory/HavresacGUIMenu.java",
+          "src/main/java/net/mcreator/wakfu/client/gui/HavresacGUIScreen.java",
+          "src/main/java/net/mcreator/wakfu/network/HavresacGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "CraftEliacube",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_eliacube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/craft_eliacube.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Crafthavresac",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafthavresac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/craft_havre_sac.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Dimensionhavresac",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensionhavresac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/dimension_type/dimensionhavresac.json",
+          "src/main/resources/assets/wakfu/models/item/dimensionhavresac.json",
+          "src/main/java/net/mcreator/wakfu/item/DimensionhavresacItem.java",
+          "src/main/resources/assets/wakfu/models/block/dimensionhavresac_portal_ns.json",
+          "src/main/java/net/mcreator/wakfu/world/teleporter/DimensionhavresacPortalShape.java",
+          "src/main/resources/assets/wakfu/models/block/dimensionhavresac_portal_ew.json",
+          "src/main/resources/data/wakfu/dimension/dimensionhavresac.json",
+          "src/main/java/net/mcreator/wakfu/world/teleporter/DimensionhavresacTeleporter.java",
+          "src/main/java/net/mcreator/wakfu/block/DimensionhavresacPortalBlock.java",
+          "src/main/resources/assets/wakfu/blockstates/dimensionhavresac_portal.json",
+          "src/main/java/net/mcreator/wakfu/world/dimension/DimensionhavresacDimension.java"
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "Procedurehavresac",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurehavresac",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProcedurehavresacProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "ProcedureHavresacoverworld",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_havresacoverworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProcedureHavresacoverworldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "BackPack",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/BackPackItem.java",
+          "src/main/resources/assets/wakfu/models/item/back_pack.json",
+          "src/main/java/net/mcreator/wakfu/item/inventory/BackPackInventoryCapability.java",
+          "src/main/java/net/mcreator/wakfu/client/renderer/BackPackRenderer.java"
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "EliacubeequipementLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eliacubeequipement_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/EliacubeequipementLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "CasqueNox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casque_nox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/blockstates/casque_nox.json",
+          "src/main/java/net/mcreator/wakfu/block/CasqueNoxBlock.java",
+          "src/main/resources/assets/wakfu/models/block/casque_nox.json",
+          "src/main/resources/assets/wakfu/models/item/casque_nox.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/casque_nox.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Plumedetofu",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plumedetofu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/PlumedetofuItem.java",
+          "src/main/resources/assets/wakfu/models/item/plumedetofu.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Tofu",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tofu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/renderer/TofuRenderer.java",
+          "src/main/resources/assets/wakfu/models/item/tofu_spawn_egg.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/tofu_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/entity/TofuEntity.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "TofuQuandLeJoueurFaitUnClicDroitSurLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tofu_quand_le_joueur_fait_un_clic_droit_sur_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/TofuQuandLeJoueurFaitUnClicDroitSurLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Tofubougepas",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tofubougepas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/TofubougepasProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Pelleruel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pelleruel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/PelleruelItem.java",
+          "src/main/resources/assets/wakfu/models/item/pelleruel.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Craftpelleruel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftpelleruel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/pelle_de_ruel.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "DofusemeraudeBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusemeraude_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusemeraudeBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "Dofusemeraude",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusemeraude",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/dofusemeraude.json",
+          "src/main/java/net/mcreator/wakfu/item/DofusemeraudeItem.java"
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusocreBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusocre_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusocreBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusocreBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusocre_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusocreBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "Dofusocre",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusocre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/dofusocre.json",
+          "src/main/java/net/mcreator/wakfu/item/DofusocreItem.java"
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusturquoiseBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusturquoise_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusturquoiseBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusturquoiseBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusturquoise_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusturquoiseBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "Dofusturquoise",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusturquoise",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/dofusturquoise.json",
+          "src/main/java/net/mcreator/wakfu/item/DofusturquoiseItem.java"
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusPourpreBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_pourpre_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusPourpreBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusPourpreBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_pourpre_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusPourpreBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusPourpre",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_pourpre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/DofusPourpreItem.java",
+          "src/main/resources/assets/wakfu/models/item/dofus_pourpre.json"
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusIvoireBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_ivoire_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusIvoireBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusIvoireBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_ivoire_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusIvoireBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusIvoire",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_ivoire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/DofusIvoireItem.java",
+          "src/main/resources/assets/wakfu/models/item/dofus_ivoire.json"
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusEbeneBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_ebene_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusEbeneBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusEbeneBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_ebene_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusEbeneBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "DofusEbene",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus_ebene",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/dofus_ebene.json",
+          "src/main/java/net/mcreator/wakfu/item/DofusEbeneItem.java"
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "Dofus",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofus",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Villageoisdofus",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villageoisdofus",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Wakfu_mineraiIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_minerai_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/wakfu_minerai_ingot.json",
+          "src/main/java/net/mcreator/wakfu/item/Wakfu_mineraiIngotItem.java"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Wakfu_mineraiOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_minerai_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/worldgen/placed_feature/wakfu_minerai_ore.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/wakfu_minerai_ore_biome_modifier.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/wakfu_minerai_ore.json",
+          "src/main/resources/assets/wakfu/blockstates/wakfu_minerai_ore.json",
+          "src/main/resources/assets/wakfu/models/block/wakfu_minerai_ore.json",
+          "src/main/resources/assets/wakfu/models/item/wakfu_minerai_ore.json",
+          "src/main/java/net/mcreator/wakfu/block/Wakfu_mineraiOreBlock.java",
+          "src/main/resources/data/wakfu/worldgen/configured_feature/wakfu_minerai_ore.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Wakfu_mineraiBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_minerai_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/block/Wakfu_mineraiBlockBlock.java",
+          "src/main/resources/assets/wakfu/models/block/wakfu_minerai_block.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/wakfu_minerai_block.json",
+          "src/main/resources/assets/wakfu/blockstates/wakfu_minerai_block.json",
+          "src/main/resources/assets/wakfu/models/item/wakfu_minerai_block.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Wakfu_mineraiOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_minerai_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/wakfu_minerai_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Wakfu_mineraiBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_minerai_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/wakfu_minerai_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Wakfu_mineraiOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_minerai_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/wakfu_minerai_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Biomewakfu",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomewakfu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/worldgen/biome/biomewakfu.json",
+          "src/main/resources/data/wakfu/worldgen/configured_feature/biomewakfu_tree.json",
+          "src/main/resources/data/wakfu/worldgen/placed_feature/biomewakfu_tree.json"
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "Nox",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nox",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/NoxEntity.java",
+          "src/main/java/net/mcreator/wakfu/client/renderer/NoxRenderer.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/nox_biome_modifier.json",
+          "src/main/resources/assets/wakfu/models/item/nox_spawn_egg.json"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "BouclierdeWakfu",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouclierde_wakfu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/bouclierde_wakfu_0.json",
+          "src/main/java/net/mcreator/wakfu/item/BouclierdeWakfuItem.java",
+          "src/main/resources/assets/wakfu/models/item/bouclierde_wakfu.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "CraftbouclierdeWakfu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftbouclierde_wakfu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/bouclier_de_wakfu.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Epeedewakfu",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epeedewakfu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/epeedewakfu.json",
+          "src/main/java/net/mcreator/wakfu/item/EpeedewakfuItem.java"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "RubilaxForm1",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_form_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/rubilax_form_1.json",
+          "src/main/java/net/mcreator/wakfu/item/RubilaxForm1Item.java"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "RubilaxForm2",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_form_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/RubilaxForm2Item.java",
+          "src/main/resources/assets/wakfu/models/item/rubilax_form_2.json"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Craftepeewakfu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftepeewakfu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/epee_de_wakfu.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Rubilax",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/gui/RubilaxScreen.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/RubilaxMenu.java",
+          "src/main/java/net/mcreator/wakfu/network/RubilaxButtonMessage.java"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Rubilax2",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/world/inventory/Rubilax2Menu.java",
+          "src/main/java/net/mcreator/wakfu/network/Rubilax2ButtonMessage.java",
+          "src/main/java/net/mcreator/wakfu/client/gui/Rubilax2Screen.java"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Rubilax1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/Rubilax1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Rubilax0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/Rubilax0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "RubilaxForm1EvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_form_1_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/RubilaxForm1EvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Chooserubilax1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chooserubilax_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/Chooserubilax1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ChooseRubilax2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choose_rubilax_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ChooseRubilax2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Choisirerace",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choisirerace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/inventory/ChoisireraceInventoryCapability.java",
+          "src/main/resources/assets/wakfu/models/item/choisirerace.json",
+          "src/main/java/net/mcreator/wakfu/item/ChoisireraceItem.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Choisireeliotrope",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choisireeliotrope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/world/inventory/ChoisireeliotropeMenu.java",
+          "src/main/java/net/mcreator/wakfu/client/gui/ChoisireeliotropeScreen.java",
+          "src/main/java/net/mcreator/wakfu/network/ChoisireeliotropeButtonMessage.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Choisireliotrope",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choisireliotrope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ChoisireliotropeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Racedragon",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racedragon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/gui/RacedragonScreen.java",
+          "src/main/java/net/mcreator/wakfu/network/RacedragonButtonMessage.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/RacedragonMenu.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Suivent1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suivent_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/Suivent1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Choisirdragon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choisirdragon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ChoisirdragonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Arriere1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arriere_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/Arriere1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "RaceIOP",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "race_iop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/gui/RaceIOPScreen.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/RaceIOPMenu.java",
+          "src/main/java/net/mcreator/wakfu/network/RaceIOPButtonMessage.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Suivent2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suivent_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/Suivent2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Choisiriop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choisiriop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ChoisiriopProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Bransdewakfu",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bransdewakfu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/BransdewakfuItem.java",
+          "src/main/resources/assets/wakfu/models/item/bransdewakfu.json"
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "Prosedurchoisirbraswakfu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prosedurchoisirbraswakfu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProsedurchoisirbraswakfuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "Procedurechoisireliacube",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurechoisireliacube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProcedurechoisireliacubeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "GuiEliacube",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_eliacube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/network/GuiEliacubeButtonMessage.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/GuiEliacubeMenu.java",
+          "src/main/java/net/mcreator/wakfu/client/gui/GuiEliacubeScreen.java"
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "BransdewakfuEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bransdewakfu_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/BransdewakfuEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "TristepinDePercedal",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tristepin_de_percedal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/tristepin_de_percedal_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/TristepinDePercedalRenderer.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/tristepin_de_percedal_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/entity/TristepinDePercedalEntity.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "QilbyEliacube",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qilby_eliacube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/renderer/QilbyEliacubeRenderer.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/qilby_eliacube_biome_modifier.json",
+          "src/main/resources/assets/wakfu/models/item/qilby_eliacube_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/entity/QilbyEliacubeEntity.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "ItemEliacube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_eliacube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/ItemEliacubeItem.java",
+          "src/main/resources/assets/wakfu/models/item/item_eliacube.json",
+          "src/main/java/net/mcreator/wakfu/item/inventory/ItemEliacubeInventoryCapability.java"
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "ItemEliacubeLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_eliacube_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ItemEliacubeLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "BiomHavresac",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biom_havresac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/worldgen/biome/biom_havresac.json"
+        ]
+      },
+      "path": "~/Havre/Havre Sac"
+    },
+    {
+      "name": "Kamas",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kamas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/KamasItem.java",
+          "src/main/resources/assets/wakfu/models/item/kamas.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "CraftKamas",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_kamas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/kamas.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "ChoisirXelor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choisir_xelor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ChoisirXelorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "ChangerLeTemps",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changer_le_temps",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/world/inventory/ChangerLeTempsMenu.java",
+          "src/main/java/net/mcreator/wakfu/client/gui/ChangerLeTempsScreen.java",
+          "src/main/java/net/mcreator/wakfu/network/ChangerLeTempsButtonMessage.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Sun",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/SunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "RaceXelor",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "race_xelor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/gui/RaceXelorScreen.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/RaceXelorMenu.java",
+          "src/main/java/net/mcreator/wakfu/network/RaceXelorButtonMessage.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Moon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/MoonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "SuiventXelor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suivent_xelor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/SuiventXelorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Changerletempsitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changerletempsitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/inventory/ChangerletempsitemInventoryCapability.java",
+          "src/main/resources/assets/wakfu/models/item/changerletempsitem.json",
+          "src/main/java/net/mcreator/wakfu/item/ChangerletempsitemItem.java"
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "BrasRubilax",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bras_rubilax",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/BrasRubilaxItem.java",
+          "src/main/resources/assets/wakfu/models/item/bras_rubilax.json"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Rubilax3",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/gui/Rubilax3Screen.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/Rubilax3Menu.java",
+          "src/main/java/net/mcreator/wakfu/network/Rubilax3ButtonMessage.java"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ChooseRubilax3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choose_rubilax_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ChooseRubilax3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "RubilaxArm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilax_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/RubilaxArmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "DofusemeraudeBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dofusemeraude_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/DofusemeraudeBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dofus"
+    },
+    {
+      "name": "Ruel",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/renderer/RuelRenderer.java",
+          "src/main/java/net/mcreator/wakfu/entity/RuelEntity.java",
+          "src/main/resources/assets/wakfu/models/item/ruel_spawn_egg.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/ruel_biome_modifier.json"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "WakfuEgg",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wakfu_egg",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Evangelyne",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evangelyne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/EvangelyneEntity.java",
+          "src/main/resources/assets/wakfu/models/item/evangelyne_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/entity/EvangelyneEntityProjectile.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/evangelyne_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/EvangelyneRenderer.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "ShushuDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/dimension/shushu_dimension.json",
+          "src/main/java/net/mcreator/wakfu/block/ShushuDimensionPortalBlock.java",
+          "src/main/resources/assets/wakfu/models/block/shushu_dimension_portal_ew.json",
+          "src/main/resources/assets/wakfu/blockstates/shushu_dimension_portal.json",
+          "src/main/java/net/mcreator/wakfu/world/dimension/ShushuDimensionDimension.java",
+          "src/main/resources/data/wakfu/dimension_type/shushu_dimension.json",
+          "src/main/resources/assets/wakfu/models/block/shushu_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/wakfu/world/teleporter/ShushuDimensionPortalShape.java",
+          "src/main/java/net/mcreator/wakfu/world/teleporter/ShushuDimensionTeleporter.java"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ShushuPortalBlockQuandLentiteEntreEnCollisionAvecLeBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_portal_block_quand_lentite_entre_en_collision_avec_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ShushuPortalBlockQuandLentiteEntreEnCollisionAvecLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ShushuPortalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_portal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/block/shushu_portal_block.json",
+          "src/main/resources/assets/wakfu/blockstates/shushu_portal_block.json",
+          "src/main/java/net/mcreator/wakfu/block/ShushuPortalBlockBlock.java",
+          "src/main/resources/assets/wakfu/models/item/shushu_portal_block.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/shushu_portal_block.json"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "PortalShushu",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_shushu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/worldgen/structure/portal_shushu.json",
+          "src/main/resources/data/wakfu/worldgen/template_pool/portal_shushu.json",
+          "src/main/resources/data/wakfu/worldgen/structure_set/portal_shushu.json"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ShushuDimensionQuandLeJoueurEntreDansLaDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_dimension_quand_le_joueur_entre_dans_la_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ShushuDimensionQuandLeJoueurEntreDansLaDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ShuShuBiom",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shu_shu_biom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/worldgen/biome/shu_shu_biom.json"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Shushu1",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/Shushu1Entity.java",
+          "src/main/java/net/mcreator/wakfu/entity/model/Shushu1Model.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/shushu_1_biome_modifier.json",
+          "src/main/resources/assets/wakfu/models/item/shushu_1_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/Shushu1Renderer.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Rubilaxlibre",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilaxlibre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/RubilaxlibreEntity.java",
+          "src/main/resources/assets/wakfu/models/item/rubilaxlibre_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/RubilaxlibreRenderer.java",
+          "src/main/java/net/mcreator/wakfu/entity/model/RubilaxlibreModel.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "RubilaxlibreGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubilaxlibre_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/network/RubilaxlibreGUIButtonMessage.java",
+          "src/main/java/net/mcreator/wakfu/world/inventory/RubilaxlibreGUIMenu.java",
+          "src/main/java/net/mcreator/wakfu/client/gui/RubilaxlibreGUIScreen.java"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "LibereRubilax",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "libere_rubilax",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/LibereRubilaxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "ProcedurelibereRubilax",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurelibere_rubilax",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProcedurelibereRubilaxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Slotdofusemeraude",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slotdofusemeraude",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/slotdofusemeraude.json"
+        ]
+      },
+      "path": "~/Cuirios slot"
+    },
+    {
+      "name": "SlotDofusOcre",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_dofus_ocre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/slot_dofus_ocre.json"
+        ]
+      },
+      "path": "~/Cuirios slot"
+    },
+    {
+      "name": "SlotDofusTurquoise",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_dofus_turquoise",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/slot_dofus_turquoise.json"
+        ]
+      },
+      "path": "~/Cuirios slot"
+    },
+    {
+      "name": "SlotDofusPourpre",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_dofus_pourpre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/slot_dofus_pourpre.json"
+        ]
+      },
+      "path": "~/Cuirios slot"
+    },
+    {
+      "name": "SlotDofusIvoire",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_dofus_ivoire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/slot_dofus_ivoire.json"
+        ]
+      },
+      "path": "~/Cuirios slot"
+    },
+    {
+      "name": "SlotDofusEbene",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_dofus_ebene",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/slot_dofus_ebene.json"
+        ]
+      },
+      "path": "~/Cuirios slot"
+    },
+    {
+      "name": "ArmureShushu",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armure_shushu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/armure_shushu_helmet.json",
+          "src/main/java/net/mcreator/wakfu/item/ArmureShushuItem.java",
+          "src/main/resources/assets/wakfu/models/item/armure_shushu_chestplate.json"
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Shushu_oreIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_ore_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/shushu_ore_ingot.json",
+          "src/main/java/net/mcreator/wakfu/item/Shushu_oreIngotItem.java"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Shushu_oreOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_ore_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/shushu_ore_ore.json",
+          "src/main/resources/data/wakfu/worldgen/placed_feature/shushu_ore_ore.json",
+          "src/main/resources/assets/wakfu/blockstates/shushu_ore_ore.json",
+          "src/main/java/net/mcreator/wakfu/block/Shushu_oreOreBlock.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/shushu_ore_ore_biome_modifier.json",
+          "src/main/resources/data/wakfu/worldgen/configured_feature/shushu_ore_ore.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/shushu_ore_ore.json",
+          "src/main/resources/assets/wakfu/models/block/shushu_ore_ore.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Shushu_oreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/loot_tables/blocks/shushu_ore_block.json",
+          "src/main/resources/assets/wakfu/models/item/shushu_ore_block.json",
+          "src/main/resources/assets/wakfu/blockstates/shushu_ore_block.json",
+          "src/main/java/net/mcreator/wakfu/block/Shushu_oreBlockBlock.java",
+          "src/main/resources/assets/wakfu/models/block/shushu_ore_block.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Shushu_oreOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_ore_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/shushu_ore_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Shushu_oreBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_ore_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/shushu_ore_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Shushu_oreOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_ore_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/shushu_ore_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "CasqueShushu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casque_shushu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/casque_shushu.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Roishushur",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roishushur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/client/renderer/RoishushurRenderer.java",
+          "src/main/resources/assets/wakfu/models/item/roishushur_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/entity/RoishushurEntity.java",
+          "src/main/java/net/mcreator/wakfu/entity/model/RoishushurModel.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "SpawnroishushuLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnroishushu_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/SpawnroishushuLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "Spawnroishushu",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnroishushu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/block/SpawnroishushuBlock.java",
+          "src/main/resources/assets/wakfu/blockstates/spawnroishushu.json",
+          "src/main/resources/assets/wakfu/models/item/spawnroishushu.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/spawnroishushu.json",
+          "src/main/resources/assets/wakfu/models/block/spawnroishushu.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Craftspawnroishushu",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftspawnroishushu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/craftspawnroishushu.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Goultard",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goultard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/GoultardEntity.java",
+          "src/main/resources/assets/wakfu/models/item/goultard_spawn_egg.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/goultard_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/GoultardRenderer.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "EpeeGoultardLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee_goultard_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/EpeeGoultardLorsqueLoutilEstDansLaMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shushus"
+    },
+    {
+      "name": "EpeeGoultard",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epee_goultard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/EpeeGoultardItem.java",
+          "src/main/resources/assets/wakfu/models/item/epee_goultard.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Shushu2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shushu_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/shushu_2_spawn_egg.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/shushu_2_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/Shushu2Renderer.java",
+          "src/main/java/net/mcreator/wakfu/entity/model/Shushu2Model.java",
+          "src/main/java/net/mcreator/wakfu/entity/Shushu2Entity.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Yugo",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yugo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/YugoEntity.java",
+          "src/main/resources/assets/wakfu/models/item/yugo_spawn_egg.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/yugo_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/YugoRenderer.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Amalia",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amalia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/amalia_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/entity/AmaliaEntity.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/amalia_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/AmaliaRenderer.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Joris",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joris",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/joris_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/entity/model/JorisModel.java",
+          "src/main/java/net/mcreator/wakfu/entity/JorisEntity.java",
+          "src/main/resources/data/wakfu/forge/biome_modifier/joris_biome_modifier.json",
+          "src/main/java/net/mcreator/wakfu/client/renderer/JorisRenderer.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "Race",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "race",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/RaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "Havreile",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havreile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/dimension/havreile.json",
+          "src/main/resources/data/wakfu/dimension_type/havreile.json",
+          "src/main/java/net/mcreator/wakfu/world/teleporter/HavreileTeleporter.java",
+          "src/main/java/net/mcreator/wakfu/block/HavreilePortalBlock.java",
+          "src/main/resources/assets/wakfu/blockstates/havreile_portal.json",
+          "src/main/java/net/mcreator/wakfu/world/teleporter/HavreilePortalShape.java",
+          "src/main/resources/assets/wakfu/models/block/havreile_portal_ew.json",
+          "src/main/java/net/mcreator/wakfu/item/HavreileItem.java",
+          "src/main/resources/assets/wakfu/models/item/havreile.json",
+          "src/main/java/net/mcreator/wakfu/world/dimension/HavreileDimension.java",
+          "src/main/resources/assets/wakfu/models/block/havreile_portal_ns.json"
+        ]
+      },
+      "path": "~/Havre/Havre Ile"
+    },
+    {
+      "name": "Water",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/worldgen/biome/water.json"
+        ]
+      },
+      "path": "~/Havre/Havre Ile"
+    },
+    {
+      "name": "HavreilePlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havreile_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/HavreilePlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Havre/Havre Ile"
+    },
+    {
+      "name": "HavreileblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havreileblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/HavreileblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "Havreileblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "havreileblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/block/HavreileblockBlock.java",
+          "src/main/resources/assets/wakfu/models/item/havreileblock.json",
+          "src/main/resources/assets/wakfu/models/block/havreileblock.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/havreileblock.json",
+          "src/main/resources/assets/wakfu/blockstates/havreileblock.json"
+        ]
+      },
+      "path": "~/Havre/Havre Ile"
+    },
+    {
+      "name": "CraftHavreIle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_havre_ile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/havre_ile.json"
+        ]
+      },
+      "path": "~/Havre/Havre Ile"
+    },
+    {
+      "name": "Stasis",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/StasisItem.java",
+          "src/main/resources/assets/wakfu/models/item/stasis.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "StasisOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/block/stasis_ore.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/stasis_ore.json",
+          "src/main/resources/data/wakfu/worldgen/configured_feature/stasis_ore.json",
+          "src/main/resources/assets/wakfu/models/item/stasis_ore.json",
+          "src/main/java/net/mcreator/wakfu/block/StasisOreBlock.java",
+          "src/main/resources/assets/wakfu/blockstates/stasis_ore.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/stasis_ore_biome_modifier.json",
+          "src/main/resources/data/wakfu/worldgen/placed_feature/stasis_ore.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "StasisBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/stasis_block.json",
+          "src/main/resources/assets/wakfu/models/block/stasis_block.json",
+          "src/main/resources/data/wakfu/loot_tables/blocks/stasis_block.json",
+          "src/main/resources/assets/wakfu/blockstates/stasis_block.json",
+          "src/main/java/net/mcreator/wakfu/block/StasisBlockBlock.java"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "StasisOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/stasis_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "StasisBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/stasis_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "StasisOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/stasis_ore_smelting.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "EpeedeStasis",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epeede_stasis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wakfu/models/item/epeede_stasis.json",
+          "src/main/java/net/mcreator/wakfu/item/EpeedeStasisItem.java"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "StasisSword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/stasis_sword.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Lokus",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lokus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/model/LokusModel.java",
+          "src/main/java/net/mcreator/wakfu/client/renderer/LokusRenderer.java",
+          "src/main/resources/assets/wakfu/models/item/lokus_spawn_egg.json",
+          "src/main/java/net/mcreator/wakfu/entity/LokusEntity.java"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "CraftLokusEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_lokus_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/craft_lokus_egg.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "Eliasphere",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eliasphere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/EliasphereItem.java",
+          "src/main/resources/assets/wakfu/models/item/eliasphere.json"
+        ]
+      },
+      "path": "~/Eliacube"
+    },
+    {
+      "name": "ProcedureEliasphere",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_eliasphere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProcedureEliasphereProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Eliacube"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Race",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "JoinedWorld",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:BiomHavresac",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:BiomHavresac",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_ocean": [
+      "~CUSTOM:Water"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:BiomHavresac",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Water",
+      "~CUSTOM:ShuShuBiom",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:ShuShuBiom"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Water",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:Biomewakfu"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EpeedeStasis",
+      "~CUSTOM:EpeeGoultard",
+      "~CUSTOM:BrasRubilax",
+      "~CUSTOM:Bransdewakfu",
+      "~CUSTOM:RubilaxForm2",
+      "~CUSTOM:RubilaxForm1",
+      "~CUSTOM:Epeedewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ShuShuBiom"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:Water"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:StasisOre",
+      "~CUSTOM:Havreileblock",
+      "~CUSTOM:Wakfu_mineraiBlock",
+      "~CUSTOM:Wakfu_mineraiOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:StasisBlock",
+      "~CUSTOM:Shushu_oreBlock",
+      "~CUSTOM:Shushu_oreOre"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:BiomHavresac"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:BiomHavresac",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:ShuShuBiom"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.FLOWING_WATER",
+      "~Blocks.NETHER_WART_BLOCK",
+      "~Blocks.NETHERRACK",
+      "~Blocks.SMOOTH_RED_SANDSTONE",
+      "~Blocks.MYCELIUM",
+      "~Blocks.DIRT#1",
+      "~Blocks.RED_SANDSTONE#2"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Water",
+      "~CUSTOM:BiomHavresac",
+      "~CUSTOM:Biomewakfu"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:StasisBlock",
+      "~CUSTOM:StasisOre",
+      "~CUSTOM:Havreileblock",
+      "~CUSTOM:Shushu_oreBlock",
+      "~CUSTOM:Shushu_oreOre",
+      "~CUSTOM:Wakfu_mineraiBlock",
+      "~CUSTOM:Wakfu_mineraiOre"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:Water"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Pelleruel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.wakfu.ruel": "Ruel",
+      "item.wakfu.dofus_pourpre": "Dofus Pourpre",
+      "block.wakfu.shushu_portal_block": "Shushu Portal Block",
+      "gui.wakfu.rubilax.button_empty": "\u003e",
+      "gui.wakfu.race_iop.button_empty1": "\u003e",
+      "item.wakfu.havreile": "Havreile Portal Igniter",
+      "block.wakfu.stasis_ore": "Stasis Ore",
+      "gui.wakfu.race_xelor.label_change_the_time": "Change the time",
+      "gui.wakfu.rubilax_2.label_damage": "Damage",
+      "gui.wakfu.havresac_gui.button_empty1": "",
+      "entity.wakfu.lokus": "Lokus",
+      "item.wakfu.back_pack": "Havre sac",
+      "gui.wakfu.rubilax_3.label_27": "27",
+      "gui.wakfu.choisireeliotrope.label_speed_3": "Speed 3",
+      "item.wakfu.epeedewakfu": "Wakfu sword",
+      "entity.wakfu.joris": "Joris",
+      "item.wakfu.evangelyne_spawn_egg": "Evangelyne Spawn Egg",
+      "gui.wakfu.rubilax_2.button_empty": "\u003c",
+      "block.wakfu.shushu_ore_ore": "Shushu Ore",
+      "block.wakfu.eliacube": "Eliacube",
+      "item.wakfu.armure_shushu_chestplate": "Shushu Breastplate",
+      "gui.wakfu.choisireeliotrope.button_empty": "\u003e",
+      "gui.wakfu.gui_eliacube.label_wakfu_arm": "Wakfu",
+      "block.wakfu.havresac": "Havre sac",
+      "gui.wakfu.rubilax_2.button_empty1": "\u003e",
+      "curios.identifier.slot_dofus_ebene": "Dofus Ébène",
+      "gui.wakfu.rubilax_2.button_choose": "Choose",
+      "item.wakfu.epee_goultard": "Epée de Goultard",
+      "item.wakfu.bransdewakfu": "Wakfu arm",
+      "gui.wakfu.rubilax_2.label_30": "30",
+      "gui.wakfu.rubilax.label_damage": "Damage",
+      "entity.wakfu.evangelyne": "Evangelyne",
+      "biome.wakfu.water": "Water",
+      "item.wakfu.bouclierde_wakfu": "Wakfu shield",
+      "gui.wakfu.race_iop.label_strength_3": "Strength 3",
+      "gui.wakfu.havresac_gui.label_sortire_du_havre_sac": "leaving the haven bag",
+      "gui.wakfu.racedragon.button_empty1": "\u003e",
+      "gui.wakfu.race_xelor.label_xelor": "Xelor",
+      "gui.wakfu.racedragon.label_dragon": "Dragon",
+      "item.wakfu.kamas": "Kamas",
+      "item.wakfu.armure_shushu_helmet": "Shushu Helmet",
+      "gui.wakfu.race_xelor.label_headset": "headset)",
+      "gui.wakfu.race_xelor.label_have_the_xelor_headset": " have the xelor",
+      "gui.wakfu.race_xelor.button_empty": "\u003c",
+      "item.wakfu.dofus_ivoire": "Dofus d\u0027Ivoire",
+      "entity.wakfu.qilby_eliacube": "Qilby Eliacube",
+      "item.wakfu.qilby_eliacube_spawn_egg": "Qilby Eliacube Spawn Egg",
+      "item.wakfu.bras_rubilax": "Rubilax Arm",
+      "biome.wakfu.biomewakfu": "Biome of wakfu",
+      "item.wakfu.roishushur_spawn_egg": "King of Shushu Spawn Egg",
+      "item.wakfu.dofusemeraude": "Dofus d\u0027emeraude",
+      "gui.wakfu.rubilaxlibre_gui.label_released_rubilax": "released Rubilax",
+      "item.wakfu.eliasphere": "Eliasphere",
+      "block.wakfu.wakfu_minerai_ore": "Wakfu Ore",
+      "gui.wakfu.choisireeliotrope.label_eliotrope": "Eliotrope",
+      "curios.identifier.slotdofusemeraude": "dofus emeraude",
+      "curios.identifier.slot_dofus_pourpre": "Dofus Pourpre",
+      "gui.wakfu.racedragon.label_jump_boost_3": "jump boost 3",
+      "entity.wakfu.tristepin_de_percedal": "Tristepin De Percedal",
+      "item.wakfu.stasis": "Stasis",
+      "item.wakfu.choisirerace": "Choose your origin",
+      "gui.wakfu.changer_le_temps.button_moon": "Moon",
+      "item.wakfu.dofus_ebene": "Dofus Ébène",
+      "block.wakfu.shushu_ore_block": "Block of Shushu_ore",
+      "block.wakfu.wakfu_minerai_block": "Block of Wakfu ",
+      "item.wakfu.amalia_spawn_egg": "Amalia Spawn Egg",
+      "gui.wakfu.havresac_gui.button_empty": "",
+      "item.wakfu.shushu_2_spawn_egg": "Shushu 2 Spawn Egg",
+      "gui.wakfu.havresac_gui.label_havre_sac": "havre sac",
+      "gui.wakfu.race_iop.label_bonus": "Bonus",
+      "gui.wakfu.rubilaxlibre_gui.button_released": "released",
+      "item_group.wakfu.wakfu_egg": "Wakfu Egg",
+      "entity.wakfu.yugo": "Yugo",
+      "gui.wakfu.havresac_gui.label_aller_dans_le_havre_sac": "go into the haven bag",
+      "block.wakfu.spawnroishushu": "Spawn King Shushu",
+      "gui.wakfu.rubilax.label_cooldown": "Cooldown",
+      "item.wakfu.dofusocre": "Dofus ocre",
+      "gui.wakfu.choisireeliotrope.label_bonus": "Bonus",
+      "biome.wakfu.shu_shu_biom": "ShuShu Biome",
+      "block.wakfu.casque_nox": "Nox Helmet(block)",
+      "item.wakfu.changerletempsitem": "change the time",
+      "item.wakfu.goultard_spawn_egg": "Goultard Spawn Egg",
+      "item.wakfu.epeede_stasis": "Stasis Sword",
+      "gui.wakfu.racedragon.button_empty": "\u003c",
+      "biome.wakfu.biom_havresac": "Desert Of Havre sac",
+      "item.wakfu.yugo_spawn_egg": "Yugo Spawn Egg",
+      "gui.wakfu.choisireeliotrope.button_choose": "Choose",
+      "gui.wakfu.race_xelor.label_provided_you_have_the_xelor_hea": "(provided you",
+      "item.wakfu.item_eliacube": "Eliacube",
+      "gui.wakfu.racedragon.button_choose": "Choose",
+      "curios.identifier.slot_dofus_ivoire": "Dofus Ivoire",
+      "gui.wakfu.rubilax.label_rubilax_form_1": "Rubilax Form 1",
+      "gui.wakfu.rubilax_3.label_cooldown": "Cooldown",
+      "block.wakfu.stasis_block": "Block of Stasis",
+      "gui.wakfu.rubilax_3.label_rubilax_form_3": "Rubilax Form 3",
+      "gui.wakfu.race_iop.label_iop": "iop",
+      "gui.wakfu.rubilax_3.button_choose": "Choose",
+      "curios.identifier.slot_dofus_ocre": "Dofus Ocre",
+      "item.wakfu.tristepin_de_percedal_spawn_egg": "Tristepin De Percedal Spawn Egg",
+      "item.wakfu.shushu_1_spawn_egg": "Shushu Spawn Egg",
+      "gui.wakfu.rubilax_2.label_1": "1",
+      "entity.wakfu.amalia": "Amalia",
+      "item.wakfu.tofu_spawn_egg": "Tofu Spawn Egg",
+      "item.wakfu.wakfu_minerai_ingot": "Wakfu Ingot",
+      "gui.wakfu.rubilax_2.label_cooldown": "Cooldown",
+      "gui.wakfu.rubilax.label_20": "20",
+      "item.wakfu.dimensionhavresac": "havre sac Portal Igniter",
+      "entity.wakfu.shushu_1": "Shushu",
+      "entity.wakfu.roishushur": "King of Shushu",
+      "entity.wakfu.nox": "Nox",
+      "gui.wakfu.havresac_gui.sortire_du_havre_sac": "leaving the haven bag",
+      "item.wakfu.shushu_ore_ingot": "Shushu_ore",
+      "gui.wakfu.race_iop.button_empty": "\u003c",
+      "item.wakfu.joris_spawn_egg": "Joris Spawn Egg",
+      "entity.wakfu.shushu_2": "Shushu 2",
+      "gui.wakfu.race_iop.button_choose": "Choose",
+      "gui.wakfu.rubilax_2.label_rubilax_form_2": "Rubilax Form 2",
+      "gui.wakfu.rubilax.button_choose": "Choose",
+      "entity.wakfu.rubilaxlibre": "Rubilax",
+      "item.wakfu.rubilax_form_2": "Rubilax Form 2",
+      "gui.wakfu.rubilax_3.button_empty1": "\u003e",
+      "item.wakfu.pelleruel": "Pelle de ruel",
+      "item.wakfu.plumedetofu": "Plume de tofu",
+      "item.wakfu.rubilax_form_1": "Rubilax Form 1",
+      "gui.wakfu.race_xelor.label_bonus": "Bonus",
+      "gui.wakfu.race_xelor.button_choose": "Choose",
+      "item.wakfu.lokus_spawn_egg": "Lokus Spawn Egg",
+      "item.wakfu.dofusturquoise": "Dofus turquoise",
+      "gui.wakfu.rubilax_3.button_empty": "\u003c",
+      "gui.wakfu.rubilaxlibre_gui.button_empty": "\u003c",
+      "item.wakfu.nox_spawn_egg": "Nox Spawn Egg",
+      "gui.wakfu.rubilax.label_05": "1.6",
+      "entity.wakfu.tofu": "Tofu",
+      "gui.wakfu.changer_le_temps.button_sun": "Sun",
+      "item.wakfu.ruel_spawn_egg": "Ruel Spawn Egg",
+      "block.wakfu.havreileblock": "Havre ile",
+      "subtitles.wakfu_generique": "generique de Wakfu",
+      "gui.wakfu.rubilax_3.label_2": "2",
+      "gui.wakfu.havresac_gui.dimention_havre_sac": "",
+      "item.wakfu.rubilaxlibre_spawn_egg": "Rubilax Spawn Egg",
+      "item_group.wakfu.wakfu": "Wakfu",
+      "gui.wakfu.rubilax_3.label_damage": "Damage",
+      "curios.identifier.slot_dofus_turquoise": "Dofus Turquoise",
+      "gui.wakfu.racedragon.label_bonus": "Bonus",
+      "entity.wakfu.goultard": "Goultard",
+      "entity.minecraft.villager.wakfu.villageoisdofus": "dofus villager"
+    },
+    "fr_fr": {
+      "entity.wakfu.ruel": "Ruel",
+      "item.wakfu.dofus_pourpre": "Dofus Pourpre",
+      "block.wakfu.shushu_portal_block": "Shushu Portal Block",
+      "gui.wakfu.rubilax.button_empty": "\u003e",
+      "gui.wakfu.race_iop.button_empty1": "\u003e",
+      "item.wakfu.havreile": "Havreile Portal Igniter",
+      "block.wakfu.stasis_ore": "Minerai de Stasis",
+      "gui.wakfu.race_xelor.label_change_the_time": "Change le temps",
+      "gui.wakfu.rubilax_2.label_damage": "Dégâts",
+      "gui.wakfu.havresac_gui.button_empty1": "",
+      "entity.wakfu.lokus": "Lokus",
+      "item.wakfu.back_pack": "Havre sac",
+      "gui.wakfu.rubilax_3.label_27": "27",
+      "gui.wakfu.choisireeliotrope.label_speed_3": "Speed 3",
+      "item.wakfu.epeedewakfu": "Epée de Wakfu",
+      "entity.wakfu.joris": "Joris",
+      "item.wakfu.evangelyne_spawn_egg": "œuf d\u0027Evangelyne",
+      "gui.wakfu.rubilax_2.button_empty": "\u003c",
+      "block.wakfu.shushu_ore_ore": "minerai Shushu",
+      "block.wakfu.eliacube": "Eliacube",
+      "item.wakfu.armure_shushu_chestplate": "Plastron Shushu",
+      "gui.wakfu.choisireeliotrope.button_empty": "\u003e",
+      "gui.wakfu.gui_eliacube.label_wakfu_arm": "Wakfu",
+      "block.wakfu.havresac": "Havre sac",
+      "gui.wakfu.rubilax_2.button_empty1": "\u003e",
+      "curios.identifier.slot_dofus_ebene": "Dofus Ébène",
+      "gui.wakfu.rubilax_2.button_choose": "Choisir",
+      "item.wakfu.epee_goultard": "Epée de Goultard",
+      "item.wakfu.bransdewakfu": "Bras en Wakfu",
+      "gui.wakfu.rubilax_2.label_30": "30",
+      "gui.wakfu.rubilax.label_damage": "Dégâts",
+      "entity.wakfu.evangelyne": "Evangelyne",
+      "biome.wakfu.water": "Water",
+      "item.wakfu.bouclierde_wakfu": "bouclier de Wakfu",
+      "gui.wakfu.race_iop.label_strength_3": "Strength 3",
+      "gui.wakfu.havresac_gui.label_sortire_du_havre_sac": "Sortire Du Havre Sac",
+      "gui.wakfu.racedragon.button_empty1": "\u003e",
+      "gui.wakfu.race_xelor.label_xelor": "Xelor",
+      "gui.wakfu.racedragon.label_dragon": "Dragon",
+      "item.wakfu.kamas": "Kamas",
+      "item.wakfu.armure_shushu_helmet": "Casque Shushu",
+      "gui.wakfu.race_xelor.label_headset": "headset)",
+      "gui.wakfu.race_xelor.label_have_the_xelor_headset": " have the xelor",
+      "gui.wakfu.race_xelor.button_empty": "\u003c",
+      "item.wakfu.dofus_ivoire": "Dofus d\u0027Ivoire",
+      "entity.wakfu.qilby_eliacube": "Qilby Eliacube",
+      "item.wakfu.qilby_eliacube_spawn_egg": "œuf de Qilby Eliacube",
+      "item.wakfu.bras_rubilax": "Bras de Rubilax",
+      "biome.wakfu.biomewakfu": "Biome de wakfu",
+      "item.wakfu.roishushur_spawn_egg": "œuf du Roi des shushu",
+      "item.wakfu.dofusemeraude": "Dofus d\u0027emeraude",
+      "gui.wakfu.rubilaxlibre_gui.label_released_rubilax": "libérée Rubilax",
+      "item.wakfu.eliasphere": "Eliasphere",
+      "block.wakfu.wakfu_minerai_ore": "Minerai de Wakfu",
+      "gui.wakfu.choisireeliotrope.label_eliotrope": "Eliotrope",
+      "curios.identifier.slotdofusemeraude": "dofus emeraude",
+      "curios.identifier.slot_dofus_pourpre": "Dofus Pourpre",
+      "gui.wakfu.racedragon.label_jump_boost_3": "jump boost 3",
+      "entity.wakfu.tristepin_de_percedal": "Tristepin De Percedal",
+      "item.wakfu.stasis": "Stasis",
+      "item.wakfu.choisirerace": "Choisi ta race",
+      "gui.wakfu.changer_le_temps.button_moon": "Lune",
+      "item.wakfu.dofus_ebene": "Dofus Ébène",
+      "block.wakfu.shushu_ore_block": "Bloc de minerai Shushu",
+      "block.wakfu.wakfu_minerai_block": "Block de Wakfu ",
+      "item.wakfu.amalia_spawn_egg": "œuf d\u0027Amalia",
+      "gui.wakfu.havresac_gui.button_empty": "",
+      "item.wakfu.shushu_2_spawn_egg": "Shushu 2 Spawn Egg",
+      "gui.wakfu.havresac_gui.label_havre_sac": "havre sac",
+      "gui.wakfu.race_iop.label_bonus": "Bonus",
+      "gui.wakfu.rubilaxlibre_gui.button_released": "libérée",
+      "item_group.wakfu.wakfu_egg": "Wakfu Egg",
+      "entity.wakfu.yugo": "Yugo",
+      "gui.wakfu.havresac_gui.label_aller_dans_le_havre_sac": "Aller Dans Le Havre Sac",
+      "block.wakfu.spawnroishushu": "Spawn du roi shushu",
+      "gui.wakfu.rubilax.label_cooldown": "Vitesse D\u0027attaque",
+      "item.wakfu.dofusocre": "Dofus ocre",
+      "gui.wakfu.choisireeliotrope.label_bonus": "Bonus",
+      "biome.wakfu.shu_shu_biom": "ShuShu Biome",
+      "block.wakfu.casque_nox": "Casque de Nox (block)",
+      "item.wakfu.changerletempsitem": "changer le temps",
+      "item.wakfu.goultard_spawn_egg": "œuf de Goultard",
+      "item.wakfu.epeede_stasis": "Stasis Sword",
+      "gui.wakfu.racedragon.button_empty": "\u003c",
+      "biome.wakfu.biom_havresac": "Desert Du Havre sac",
+      "item.wakfu.yugo_spawn_egg": "œuf de Yugo",
+      "gui.wakfu.choisireeliotrope.button_choose": "Choisir",
+      "gui.wakfu.race_xelor.label_provided_you_have_the_xelor_hea": "(provided you",
+      "item.wakfu.item_eliacube": "Eliacube",
+      "gui.wakfu.racedragon.button_choose": "Choisir",
+      "curios.identifier.slot_dofus_ivoire": "Dofus Ivoire",
+      "gui.wakfu.rubilax.label_rubilax_form_1": "Rubilax Form 1",
+      "gui.wakfu.rubilax_3.label_cooldown": "Cooldown",
+      "block.wakfu.stasis_block": "Block de Stasis",
+      "gui.wakfu.rubilax_3.label_rubilax_form_3": "Rubilax Form 3",
+      "gui.wakfu.race_iop.label_iop": "iop",
+      "gui.wakfu.rubilax_3.button_choose": "Choisir",
+      "curios.identifier.slot_dofus_ocre": "Dofus Ocre",
+      "item.wakfu.tristepin_de_percedal_spawn_egg": "œuf de Tristepin De Percedal",
+      "item.wakfu.shushu_1_spawn_egg": "œuf de Shushu",
+      "gui.wakfu.rubilax_2.label_1": "1",
+      "entity.wakfu.amalia": "Amalia",
+      "item.wakfu.tofu_spawn_egg": "œuf de Tofu",
+      "item.wakfu.wakfu_minerai_ingot": "Lingot de Wakfu",
+      "gui.wakfu.rubilax_2.label_cooldown": "Vitesse D\u0027attaque",
+      "gui.wakfu.rubilax.label_20": "20",
+      "item.wakfu.dimensionhavresac": "havre sac Portal Igniter",
+      "entity.wakfu.shushu_1": "Shushu",
+      "entity.wakfu.roishushur": "Roi des shushu",
+      "entity.wakfu.nox": "Nox",
+      "gui.wakfu.havresac_gui.sortire_du_havre_sac": "Sortire Du Havre Sac",
+      "item.wakfu.shushu_ore_ingot": "Minerai de Shushu",
+      "gui.wakfu.race_iop.button_empty": "\u003c",
+      "item.wakfu.joris_spawn_egg": "œuf de Joris",
+      "entity.wakfu.shushu_2": "Shushu 2",
+      "gui.wakfu.race_iop.button_choose": "Choisir",
+      "gui.wakfu.rubilax_2.label_rubilax_form_2": "Rubilax Form 2",
+      "gui.wakfu.rubilax.button_choose": "Choisir",
+      "entity.wakfu.rubilaxlibre": "Rubilax",
+      "item.wakfu.rubilax_form_2": "Rubilax Form 2",
+      "gui.wakfu.rubilax_3.button_empty1": "\u003e",
+      "item.wakfu.pelleruel": "Pelle de ruel",
+      "item.wakfu.plumedetofu": "Plume de tofu",
+      "item.wakfu.rubilax_form_1": "Rubilax Form 1",
+      "gui.wakfu.race_xelor.label_bonus": "Bonus",
+      "gui.wakfu.race_xelor.button_choose": "Choisir",
+      "item.wakfu.lokus_spawn_egg": "Lokus Spawn Egg",
+      "item.wakfu.dofusturquoise": "Dofus turquoise",
+      "gui.wakfu.rubilax_3.button_empty": "\u003c",
+      "gui.wakfu.rubilaxlibre_gui.button_empty": "\u003c",
+      "item.wakfu.nox_spawn_egg": "œuf de Nox",
+      "gui.wakfu.rubilax.label_05": "1.6",
+      "entity.wakfu.tofu": "Tofu",
+      "gui.wakfu.changer_le_temps.button_sun": "Soleil",
+      "item.wakfu.ruel_spawn_egg": "œuf de Ruel",
+      "block.wakfu.havreileblock": "Havre ile",
+      "subtitles.wakfu_generique": "generique de Wakfu",
+      "gui.wakfu.rubilax_3.label_2": "2",
+      "gui.wakfu.havresac_gui.dimention_havre_sac": "",
+      "item.wakfu.rubilaxlibre_spawn_egg": "œuf de Rubilax",
+      "item_group.wakfu.wakfu": "Wakfu",
+      "gui.wakfu.rubilax_3.label_damage": "Damage",
+      "curios.identifier.slot_dofus_turquoise": "Dofus Turquoise",
+      "gui.wakfu.racedragon.label_bonus": "Bonus",
+      "entity.wakfu.goultard": "Goultard",
+      "entity.minecraft.villager.wakfu.villageoisdofus": "dofus villager"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Craft",
+        "children": []
+      },
+      {
+        "name": "Dofus",
+        "children": []
+      },
+      {
+        "name": "PNJ",
+        "children": []
+      },
+      {
+        "name": "Race",
+        "children": []
+      },
+      {
+        "name": "Item..Block",
+        "children": []
+      },
+      {
+        "name": "Shushus",
+        "children": []
+      },
+      {
+        "name": "Eliacube",
+        "children": []
+      },
+      {
+        "name": "Cuirios slot",
+        "children": []
+      },
+      {
+        "name": "Havre",
+        "children": [
+          {
+            "name": "Havre Sac",
+            "children": []
+          },
+          {
+            "name": "Havre Ile",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wakfu",
+    "modName": "Wakfu",
+    "version": "1.0.0",
+    "author": "oxiytb1705",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wakfu"
+  },
+  "mcreatorVersion": 202400342716
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "havre_sac",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:item_eliacube"
+    },
+    "b": {
+      "item": "minecraft:chest"
+    },
+    "c": {
+      "item": "minecraft:compass"
+    },
+    "d": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "wakfu:back_pack",
+    "count": 1
+  }
+}

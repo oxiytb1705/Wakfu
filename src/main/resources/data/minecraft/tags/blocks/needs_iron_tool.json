@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wakfu:stasis_block",
+    "wakfu:shushu_ore_block",
+    "wakfu:shushu_ore_ore"
+  ]
+}

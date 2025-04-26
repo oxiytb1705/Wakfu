@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/rubilax_form_2",
+  "textures": {
+    "0": "wakfu:block/rubilax_form2",
+    "particle": "wakfu:item/rubilaxform2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/kamas",
+  "textures": {
+    "0": "wakfu:block/texture_kamas",
+    "particle": "wakfu:item/kamas"
+  }
+}

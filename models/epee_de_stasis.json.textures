@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "epee_de_stasis"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "wakfu:portal_shushu",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "strongholds",
+  "terrain_adaptation": "bury",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": [
+    "snowy_plains",
+    "plains",
+    "desert"
+  ],
+  "use_expansion_hack": false
+}

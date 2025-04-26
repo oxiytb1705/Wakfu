@@ -1,0 +1,231 @@
+{
+  "_fv": 69,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Villageoisdofus"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DofusPourpre"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.FEATHER"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Plumedetofu"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ItemEliacube"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:Dofusemeraude"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.GOLD_BLOCK"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Items.GOLDEN_SHOVEL"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pelleruel"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ItemEliacube"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:BackPack"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Dofusocre"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.PLANKS#0"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.FEATHER"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.ENDER_EYE"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": "Items.NETHERITE_SCRAP"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Dofusturquoise"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": "Blocks.PITCHER_PLANT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CasqueNox"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CasqueNox"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "CUSTOM:BackPack"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DofusIvoire"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Pelleruel"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Blocks.SNIFFER_EGG"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:DofusEbene"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Wakfu_mineraiIngot"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Kamas"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:Kamas"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "Items.NETHERITE_SCRAP"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

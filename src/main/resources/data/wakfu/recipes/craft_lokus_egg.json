@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:stasis"
+    },
+    "b": {
+      "item": "wakfu:epeede_stasis"
+    },
+    "c": {
+      "item": "wakfu:stasis_block"
+    },
+    "d": {
+      "item": "wakfu:item_eliacube"
+    },
+    "e": {
+      "item": "wakfu:epeedewakfu"
+    }
+  },
+  "result": {
+    "item": "wakfu:lokus_spawn_egg",
+    "count": 1
+  }
+}

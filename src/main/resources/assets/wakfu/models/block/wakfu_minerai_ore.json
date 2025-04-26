@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wakfu:block/wakfu_minerai_ore",
+    "particle": "wakfu:block/wakfu_minerai_ore"
+  },
+  "render_type": "solid"
+}

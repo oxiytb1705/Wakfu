@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wakfu:portal_shushu",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 2001,
+    "separation": 2000,
+    "salt": 1851476002
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.unknown.attack": {
+			"loop": true,
+			"bones": {
+				"bras_droit": {
+					"rotation": [-52.5, 0, 0],
+					"position": [0, 4, -10]
+				}
+			}
+		},
+		"animation.unknown.marche": {
+			"animation_length": 0.75,
+			"bones": {
+				"pied_droit": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"0.25": [0, 0, 0],
+						"0.5": [0, 0, 1],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"pied_gauche": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.25": [0, 0, 0],
+						"0.5": [0, 0, -1],
+						"0.75": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

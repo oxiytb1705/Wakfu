@@ -1,0 +1,16 @@
+{
+  "_fv": 69,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "dofus villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:Eliacube"
+    },
+    "actionSound": {
+      "value": "entity.villager.celebrate"
+    },
+    "hat": "None",
+    "professionTextureFile": "nitwit.png",
+    "zombifiedProfessionTextureFile": "nitwit.png"
+  }
+}

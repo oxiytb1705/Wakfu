@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/eliacube",
+  "textures": {
+    "0": "wakfu:block/eliacube_2",
+    "particle": "wakfu:item/eliacube"
+  }
+}

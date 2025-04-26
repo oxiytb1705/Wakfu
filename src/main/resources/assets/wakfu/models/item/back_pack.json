@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/havre_sac",
+  "textures": {
+    "0": "wakfu:block/havre_sac_texture",
+    "particle": "wakfu:item/havre_sac"
+  }
+}

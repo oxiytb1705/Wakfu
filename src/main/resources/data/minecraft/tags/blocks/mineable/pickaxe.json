@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "wakfu:stasis_block",
+    "wakfu:stasis_ore",
+    "wakfu:havreileblock",
+    "wakfu:shushu_ore_block",
+    "wakfu:shushu_ore_ore",
+    "wakfu:wakfu_minerai_block",
+    "wakfu:wakfu_minerai_ore"
+  ]
+}

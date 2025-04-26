@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Stasis"
+      },
+      {
+        "value": "CUSTOM:EpeedeStasis"
+      },
+      {
+        "value": "CUSTOM:Stasis"
+      },
+      {
+        "value": "CUSTOM:StasisBlock"
+      },
+      {
+        "value": "CUSTOM:ItemEliacube"
+      },
+      {
+        "value": "CUSTOM:StasisBlock"
+      },
+      {
+        "value": "CUSTOM:Stasis"
+      },
+      {
+        "value": "CUSTOM:Epeedewakfu"
+      },
+      {
+        "value": "CUSTOM:Stasis"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Lokus.spawn_egg"
+    },
+    "name": "craft_lokus_egg",
+    "namespace": "mod"
+  }
+}

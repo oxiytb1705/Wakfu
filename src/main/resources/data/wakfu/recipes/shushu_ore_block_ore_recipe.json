@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wakfu:shushu_ore_block"
+    }
+  ],
+  "result": {
+    "item": "wakfu:shushu_ore_ingot",
+    "count": 9
+  }
+}

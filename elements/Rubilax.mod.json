@@ -1,0 +1,136 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "rubilaxform1.png",
+          "use1Xscale": true,
+          "x": 129,
+          "y": 38
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rubilax_form_1",
+          "text": {
+            "fixedValue": "Rubilax Form 1"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 213,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_damage",
+          "text": {
+            "fixedValue": "Damage"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "x": 206,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_20",
+          "text": {
+            "fixedValue": "20"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 205,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cooldown",
+          "text": {
+            "fixedValue": "Cooldown"
+          },
+          "color": {
+            "value": -16751002,
+            "falpha": 0.0
+          },
+          "x": 206,
+          "y": 142
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_05",
+          "text": {
+            "fixedValue": "1.6"
+          },
+          "color": {
+            "value": -16737895,
+            "falpha": 0.0
+          },
+          "x": 205,
+          "y": 159
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Rubilax1"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 301,
+          "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_choose",
+          "text": "Choose",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChooseRubilax2"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

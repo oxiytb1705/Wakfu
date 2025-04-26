@@ -1,0 +1,9 @@
+{
+  "_fv": 69,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "turquoise_dofus.png",
+    "name": "Dofus Turquoise",
+    "amount": 1
+  }
+}
