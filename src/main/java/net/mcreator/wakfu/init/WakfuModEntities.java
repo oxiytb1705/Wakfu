@@ -31,6 +31,7 @@ import net.mcreator.wakfu.entity.JorisEntity;
 import net.mcreator.wakfu.entity.GoultardEntity;
 import net.mcreator.wakfu.entity.EvangelyneEntityProjectile;
 import net.mcreator.wakfu.entity.EvangelyneEntity;
+import net.mcreator.wakfu.entity.BouftouEntity;
 import net.mcreator.wakfu.entity.AmaliaEntity;
 import net.mcreator.wakfu.WakfuMod;
 
@@ -87,6 +88,10 @@ public class WakfuModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LokusEntity>> LOKUS = register("lokus",
 			EntityType.Builder.<LokusEntity>of(LokusEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokusEntity::new).fireImmune().sized(1f, 2f));
+	public static final RegistryObject<EntityType<BouftouEntity>> BOUFTOU = register("bouftou",
+			EntityType.Builder.<BouftouEntity>of(BouftouEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BouftouEntity::new)
+
+					.sized(0.6f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -110,6 +115,7 @@ public class WakfuModEntities {
 			AmaliaEntity.init();
 			JorisEntity.init();
 			LokusEntity.init();
+			BouftouEntity.init();
 		});
 	}
 
@@ -130,5 +136,6 @@ public class WakfuModEntities {
 		event.put(AMALIA.get(), AmaliaEntity.createAttributes().build());
 		event.put(JORIS.get(), JorisEntity.createAttributes().build());
 		event.put(LOKUS.get(), LokusEntity.createAttributes().build());
+		event.put(BOUFTOU.get(), BouftouEntity.createAttributes().build());
 	}
 }

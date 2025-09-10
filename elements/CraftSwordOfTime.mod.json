@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plumedetofu"
+      },
+      {
+        "value": "CUSTOM:CasqueNox"
+      },
+      {
+        "value": "CUSTOM:Kamas"
+      },
+      {
+        "value": "CUSTOM:Wakfu_mineraiIngot"
+      },
+      {
+        "value": "CUSTOM:Changerletempsitem"
+      },
+      {
+        "value": "CUSTOM:Wakfu_mineraiIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Wakfu_mineraiIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SwordOfTime"
+    },
+    "name": "craft_sword_of_time",
+    "namespace": "mod"
+  }
+}

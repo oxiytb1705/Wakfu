@@ -21,6 +21,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.mcreator.wakfu.item.Wakfu_mineraiIngotItem;
+import net.mcreator.wakfu.item.SwordOfTimeItem;
 import net.mcreator.wakfu.item.StasisItem;
 import net.mcreator.wakfu.item.Shushu_oreIngotItem;
 import net.mcreator.wakfu.item.RubilaxForm2Item;
@@ -109,6 +110,8 @@ public class WakfuModItems {
 	public static final RegistryObject<Item> EPEEDE_STASIS = REGISTRY.register("epeede_stasis", () -> new EpeedeStasisItem());
 	public static final RegistryObject<Item> LOKUS_SPAWN_EGG = REGISTRY.register("lokus_spawn_egg", () -> new ForgeSpawnEggItem(WakfuModEntities.LOKUS, -15060125, -12148549, new Item.Properties()));
 	public static final RegistryObject<Item> ELIASPHERE = REGISTRY.register("eliasphere", () -> new EliasphereItem());
+	public static final RegistryObject<Item> BOUFTOU_SPAWN_EGG = REGISTRY.register("bouftou_spawn_egg", () -> new ForgeSpawnEggItem(WakfuModEntities.BOUFTOU, -1, -16751002, new Item.Properties()));
+	public static final RegistryObject<Item> SWORD_OF_TIME = REGISTRY.register("sword_of_time", () -> new SwordOfTimeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

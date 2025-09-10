@@ -14,17 +14,19 @@ import net.mcreator.wakfu.client.model.ModelHavreSacDos;
 import net.mcreator.wakfu.client.model.ModelEliacubeDos;
 import net.mcreator.wakfu.client.model.ModelCustomModel;
 import net.mcreator.wakfu.client.model.ModelCasqueNox;
+import net.mcreator.wakfu.client.model.ModelBouftou;
 import net.mcreator.wakfu.client.model.ModelArmureShushu;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class WakfuModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(ModelArmureShushu.LAYER_LOCATION, ModelArmureShushu::createBodyLayer);
-		event.registerLayerDefinition(ModelEliacubeDos.LAYER_LOCATION, ModelEliacubeDos::createBodyLayer);
-		event.registerLayerDefinition(ModelTofu.LAYER_LOCATION, ModelTofu::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(ModelHavreSacDos.LAYER_LOCATION, ModelHavreSacDos::createBodyLayer);
 		event.registerLayerDefinition(ModelCasqueNox.LAYER_LOCATION, ModelCasqueNox::createBodyLayer);
+		event.registerLayerDefinition(ModelArmureShushu.LAYER_LOCATION, ModelArmureShushu::createBodyLayer);
+		event.registerLayerDefinition(ModelEliacubeDos.LAYER_LOCATION, ModelEliacubeDos::createBodyLayer);
+		event.registerLayerDefinition(ModelTofu.LAYER_LOCATION, ModelTofu::createBodyLayer);
+		event.registerLayerDefinition(ModelBouftou.LAYER_LOCATION, ModelBouftou::createBodyLayer);
 	}
 }

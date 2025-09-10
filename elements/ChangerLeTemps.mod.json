@@ -22,7 +22,7 @@
           "width": 40,
           "height": 20,
           "x": 150,
-          "y": 107
+          "y": 80
         }
       },
       {
@@ -37,7 +37,22 @@
           "width": 46,
           "height": 20,
           "x": 231,
-          "y": 107
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stop_rain",
+          "text": "Stop Rain",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StopRain"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 173,
+          "y": 117
         }
       }
     ],

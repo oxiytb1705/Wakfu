@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.wakfu.world.inventory.ChangerLeTempsMenu;
 import net.mcreator.wakfu.procedures.SunProcedure;
+import net.mcreator.wakfu.procedures.StopRainProcedure;
 import net.mcreator.wakfu.procedures.MoonProcedure;
 import net.mcreator.wakfu.WakfuMod;
 
@@ -70,6 +71,10 @@ public class ChangerLeTempsButtonMessage {
 		if (buttonID == 1) {
 
 			MoonProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			StopRainProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

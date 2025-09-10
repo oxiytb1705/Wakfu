@@ -24,6 +24,7 @@ public class ChangerLeTempsScreen extends AbstractContainerScreen<ChangerLeTemps
 	private final Player entity;
 	Button button_sun;
 	Button button_moon;
+	Button button_stop_rain;
 
 	public ChangerLeTempsScreen(ChangerLeTempsMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -75,7 +76,7 @@ public class ChangerLeTempsScreen extends AbstractContainerScreen<ChangerLeTemps
 				WakfuMod.PACKET_HANDLER.sendToServer(new ChangerLeTempsButtonMessage(0, x, y, z));
 				ChangerLeTempsButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 45, 40, 20).build();
+		}).bounds(this.leftPos + 6, this.topPos + 18, 40, 20).build();
 		guistate.put("button:button_sun", button_sun);
 		this.addRenderableWidget(button_sun);
 		button_moon = Button.builder(Component.translatable("gui.wakfu.changer_le_temps.button_moon"), e -> {
@@ -83,8 +84,16 @@ public class ChangerLeTempsScreen extends AbstractContainerScreen<ChangerLeTemps
 				WakfuMod.PACKET_HANDLER.sendToServer(new ChangerLeTempsButtonMessage(1, x, y, z));
 				ChangerLeTempsButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 87, this.topPos + 45, 46, 20).build();
+		}).bounds(this.leftPos + 87, this.topPos + 18, 46, 20).build();
 		guistate.put("button:button_moon", button_moon);
 		this.addRenderableWidget(button_moon);
+		button_stop_rain = Button.builder(Component.translatable("gui.wakfu.changer_le_temps.button_stop_rain"), e -> {
+			if (true) {
+				WakfuMod.PACKET_HANDLER.sendToServer(new ChangerLeTempsButtonMessage(2, x, y, z));
+				ChangerLeTempsButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 29, this.topPos + 55, 72, 20).build();
+		guistate.put("button:button_stop_rain", button_stop_rain);
+		this.addRenderableWidget(button_stop_rain);
 	}
 }

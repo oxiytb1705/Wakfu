@@ -2703,6 +2703,119 @@
         ]
       },
       "path": "~/Eliacube"
+    },
+    {
+      "name": "Bouftou",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouftou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/entity/BouftouEntity.java",
+          "src/main/java/net/mcreator/wakfu/client/renderer/BouftouRenderer.java",
+          "src/main/resources/assets/wakfu/models/item/bouftou_spawn_egg.json",
+          "src/main/resources/data/wakfu/forge/biome_modifier/bouftou_biome_modifier.json"
+        ]
+      },
+      "path": "~/PNJ"
+    },
+    {
+      "name": "StopRain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_rain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/StopRainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Race"
+    },
+    {
+      "name": "SwordOfTime",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/item/SwordOfTimeItem.java",
+          "src/main/resources/assets/wakfu/models/item/sword_of_time.json"
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "ProcedurSwordOfTime",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedur_sword_of_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wakfu/procedures/ProcedurSwordOfTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Item..Block"
+    },
+    {
+      "name": "CraftSwordOfTime",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_sword_of_time",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wakfu/recipes/craft_sword_of_time.json"
+        ]
+      },
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [
@@ -2761,6 +2874,7 @@
       "~CUSTOM:Biomewakfu"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:SwordOfTime",
       "~CUSTOM:EpeedeStasis",
       "~CUSTOM:EpeeGoultard",
       "~CUSTOM:BrasRubilax",
@@ -2850,6 +2964,7 @@
       "entity.wakfu.joris": "Joris",
       "item.wakfu.evangelyne_spawn_egg": "Evangelyne Spawn Egg",
       "gui.wakfu.rubilax_2.button_empty": "\u003c",
+      "item.wakfu.sword_of_time": "Sword Of Time",
       "block.wakfu.shushu_ore_ore": "Shushu Ore",
       "block.wakfu.eliacube": "Eliacube",
       "item.wakfu.armure_shushu_chestplate": "Shushu Breastplate",
@@ -2938,6 +3053,7 @@
       "item.wakfu.wakfu_minerai_ingot": "Wakfu Ingot",
       "gui.wakfu.rubilax_2.label_cooldown": "Cooldown",
       "gui.wakfu.rubilax.label_20": "20",
+      "gui.wakfu.changer_le_temps.button_stop_rain": "Stop Rain",
       "item.wakfu.dimensionhavresac": "havre sac Portal Igniter",
       "entity.wakfu.shushu_1": "Shushu",
       "entity.wakfu.roishushur": "King of Shushu",
@@ -2949,7 +3065,9 @@
       "entity.wakfu.shushu_2": "Shushu 2",
       "gui.wakfu.race_iop.button_choose": "Choose",
       "gui.wakfu.rubilax_2.label_rubilax_form_2": "Rubilax Form 2",
+      "entity.wakfu.bouftou": "Bouftou",
       "gui.wakfu.rubilax.button_choose": "Choose",
+      "item.wakfu.bouftou_spawn_egg": "Bouftou Spawn Egg",
       "entity.wakfu.rubilaxlibre": "Rubilax",
       "item.wakfu.rubilax_form_2": "Rubilax Form 2",
       "gui.wakfu.rubilax_3.button_empty1": "\u003e",
@@ -2998,6 +3116,7 @@
       "entity.wakfu.joris": "Joris",
       "item.wakfu.evangelyne_spawn_egg": "œuf d\u0027Evangelyne",
       "gui.wakfu.rubilax_2.button_empty": "\u003c",
+      "item.wakfu.sword_of_time": "Sword Of Time",
       "block.wakfu.shushu_ore_ore": "minerai Shushu",
       "block.wakfu.eliacube": "Eliacube",
       "item.wakfu.armure_shushu_chestplate": "Plastron Shushu",
@@ -3086,6 +3205,7 @@
       "item.wakfu.wakfu_minerai_ingot": "Lingot de Wakfu",
       "gui.wakfu.rubilax_2.label_cooldown": "Vitesse D\u0027attaque",
       "gui.wakfu.rubilax.label_20": "20",
+      "gui.wakfu.changer_le_temps.button_stop_rain": "Stop Rain",
       "item.wakfu.dimensionhavresac": "havre sac Portal Igniter",
       "entity.wakfu.shushu_1": "Shushu",
       "entity.wakfu.roishushur": "Roi des shushu",
@@ -3097,7 +3217,9 @@
       "entity.wakfu.shushu_2": "Shushu 2",
       "gui.wakfu.race_iop.button_choose": "Choisir",
       "gui.wakfu.rubilax_2.label_rubilax_form_2": "Rubilax Form 2",
+      "entity.wakfu.bouftou": "Bouftou",
       "gui.wakfu.rubilax.button_choose": "Choisir",
+      "item.wakfu.bouftou_spawn_egg": "Bouftou Spawn Egg",
       "entity.wakfu.rubilaxlibre": "Rubilax",
       "item.wakfu.rubilax_form_2": "Rubilax Form 2",
       "gui.wakfu.rubilax_3.button_empty1": "\u003e",

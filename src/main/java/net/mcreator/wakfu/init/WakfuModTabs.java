@@ -33,6 +33,7 @@ public class WakfuModTabs {
 				tabData.accept(WakfuModItems.AMALIA_SPAWN_EGG.get());
 				tabData.accept(WakfuModItems.JORIS_SPAWN_EGG.get());
 				tabData.accept(WakfuModItems.LOKUS_SPAWN_EGG.get());
+				tabData.accept(WakfuModItems.BOUFTOU_SPAWN_EGG.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> WAKFU = REGISTRY.register("wakfu",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.wakfu.wakfu")).icon(() -> new ItemStack(WakfuModBlocks.ELIACUBE.get())).displayItems((parameters, tabData) -> {
@@ -67,6 +68,7 @@ public class WakfuModTabs {
 				tabData.accept(WakfuModBlocks.STASIS_BLOCK.get().asItem());
 				tabData.accept(WakfuModItems.EPEEDE_STASIS.get());
 				tabData.accept(WakfuModItems.ELIASPHERE.get());
+				tabData.accept(WakfuModItems.SWORD_OF_TIME.get());
 			})
 
 					.build());

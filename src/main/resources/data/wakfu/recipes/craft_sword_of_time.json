@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "abc",
+    "ded",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "wakfu:plumedetofu"
+    },
+    "b": {
+      "item": "wakfu:casque_nox"
+    },
+    "c": {
+      "item": "wakfu:kamas"
+    },
+    "d": {
+      "item": "wakfu:wakfu_minerai_ingot"
+    },
+    "e": {
+      "item": "wakfu:changerletempsitem"
+    }
+  },
+  "result": {
+    "item": "wakfu:sword_of_time",
+    "count": 1
+  }
+}

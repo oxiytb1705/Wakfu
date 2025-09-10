@@ -1,0 +1,7 @@
+{
+  "parent": "wakfu:custom/epee_du_temps",
+  "textures": {
+    "0": "wakfu:block/texture_epee_du_temps",
+    "particle": "wakfu:item/epee_du_temps"
+  }
+}

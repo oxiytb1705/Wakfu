@@ -25,6 +25,7 @@ import net.mcreator.wakfu.client.renderer.LokusRenderer;
 import net.mcreator.wakfu.client.renderer.JorisRenderer;
 import net.mcreator.wakfu.client.renderer.GoultardRenderer;
 import net.mcreator.wakfu.client.renderer.EvangelyneRenderer;
+import net.mcreator.wakfu.client.renderer.BouftouRenderer;
 import net.mcreator.wakfu.client.renderer.AmaliaRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -47,5 +48,6 @@ public class WakfuModEntityRenderers {
 		event.registerEntityRenderer(WakfuModEntities.AMALIA.get(), AmaliaRenderer::new);
 		event.registerEntityRenderer(WakfuModEntities.JORIS.get(), JorisRenderer::new);
 		event.registerEntityRenderer(WakfuModEntities.LOKUS.get(), LokusRenderer::new);
+		event.registerEntityRenderer(WakfuModEntities.BOUFTOU.get(), BouftouRenderer::new);
 	}
 }

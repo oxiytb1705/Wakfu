@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "goultard_epee",
-    "customModelName": "goultard_epee:default",
+    "texture": "epee_du_temps",
+    "customModelName": "epee_du_temps:default",
     "blockingModelName": "Normal blocking",
-    "name": "Epée de Goultard",
+    "name": "Sword Of Time",
     "specialInformation": {
       "fixedValue": []
     },
@@ -20,19 +20,23 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 40.0,
-    "usageCount": 2500,
+    "damageVsEntity": 28.0,
+    "usageCount": 2000,
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:CasqueNox"
+      }
+    ],
     "immuneToFire": true,
-    "blockDropsTier": "NETHERITE",
+    "blockDropsTier": "DIAMOND",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onItemInUseTick": {
-      "name": "EpeeGoultardLorsqueLoutilEstDansLaMain"
+    "onRightClickedInAir": {
+      "name": "ProcedurSwordOfTime"
     }
   }
 }
